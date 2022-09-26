@@ -16,8 +16,10 @@ moc_users = [
 ]
 
 
+main.users = moc_users
+    
+    
 def test_get():
-    main.users = moc_users
     users_return = main.get_users()
     assert users_return == moc_users
 
