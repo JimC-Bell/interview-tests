@@ -45,7 +45,7 @@ def test_post():
     u = main.User(name="NewName", email="new@email.com", phone="987 123-4567")
     moc_users.append(u)
     users_return = main.create_user(u)
-    assert users_return == moc_users
+    assert users_return[2] == u
 
 
 def test_post_bad_user():
