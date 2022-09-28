@@ -9,7 +9,7 @@ Setup
 Task
 =====
 Complete main.py code as per in-line comments. This is a RESTful Web API using FastAPI that gets, updates and adds users to a small data table.
-- The code must meet all evaluation criteria.
+- The code should raise HTTP exceptions when required for invalid input data.
 - You may import any libraries you require. Modify requierments.txt apropriatly.
 - You may add, modify and delete any functions or classes in main.py as required.
 - The code must not leave any artifacts behind but may use whatever temporary artifacts you deem nessiary as long as they are cleaned up.
