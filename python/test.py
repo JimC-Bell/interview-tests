@@ -2,17 +2,10 @@ import pytest
 from fastapi import HTTPException
 import main
 
+
 moc_users = [
-    {
-        "name=": "Test1",
-        "email": "test1@something.com",
-        "phone": "123 456-1234"
-    },
-    {
-        "name=": "Test2",
-        "email": "test2@nowhere.com",
-        "phone": "987 456-9876"
-    }
+    main.User(name="Test1", email="test1@something.com", phone="123 456-1234"),
+    main.User(name="Test2", email="test2@nowhere.com", phone="987 456-9876")
 ]
 
 
